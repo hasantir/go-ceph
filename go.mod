@@ -1,4 +1,4 @@
-module github.com/ceph/go-ceph
+module github.com/hasantir/go-ceph
 
 go 1.19
 

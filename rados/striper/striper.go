@@ -7,7 +7,7 @@ package striper
 import "C"
 
 import (
-	"github.com/ceph/go-ceph/rados"
+	"github.com/hasantir/go-ceph/rados"
 )
 
 // Striper helps manage the reading, writing, and management of RADOS

@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 	tsuite "github.com/stretchr/testify/suite"
 
-	"github.com/ceph/go-ceph/rados"
+	"github.com/hasantir/go-ceph/rados"
 )
 
 type StriperTestSuite struct {
