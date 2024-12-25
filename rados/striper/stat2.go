@@ -10,7 +10,7 @@ import "C"
 import (
 	"unsafe"
 
-	ts "github.com/ceph/go-ceph/internal/timespec"
+	ts "github.com/hasantir/go-ceph/internal/timespec"
 )
 
 // Stat returns metadata describing the striped object.

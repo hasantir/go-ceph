@@ -6,7 +6,7 @@ package striper
 import "C"
 
 import (
-	"github.com/ceph/go-ceph/internal/errutil"
+	"github.com/hasantir/go-ceph/internal/errutil"
 )
 
 // radosStriperError represents an error condition returned from the Ceph

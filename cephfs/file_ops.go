@@ -13,7 +13,7 @@ package cephfs
 import "C"
 
 import (
-	ts "github.com/ceph/go-ceph/internal/timespec"
+	ts "github.com/hasantir/go-ceph/internal/timespec"
 	"unsafe"
 )
 

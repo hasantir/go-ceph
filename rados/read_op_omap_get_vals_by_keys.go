@@ -9,7 +9,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/ceph/go-ceph/internal/cutil"
+	"github.com/hasantir/go-ceph/internal/cutil"
 )
 
 // ReadOpOmapGetValsByKeysStep holds the result of the

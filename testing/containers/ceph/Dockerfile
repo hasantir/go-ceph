@@ -47,8 +47,8 @@ ENV GOROOT=/opt/go
 ENV GO111MODULE=on
 ENV GOPATH /go
 ENV GOCACHE=/go/cache
-WORKDIR /go/src/github.com/ceph/go-ceph
-VOLUME /go/src/github.com/ceph/go-ceph
+WORKDIR /go/src/github.com/hasantir/go-ceph
+VOLUME /go/src/github.com/hasantir/go-ceph
 
 COPY micro-osd.sh /
 COPY entrypoint.sh /

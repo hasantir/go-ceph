@@ -11,7 +11,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/ceph/go-ceph/internal/retry"
+	"github.com/hasantir/go-ceph/internal/retry"
 )
 
 // GetSnapID returns the snapshot ID for the given snapshot name.

@@ -69,9 +69,9 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/ceph/go-ceph/internal/cutil"
-	"github.com/ceph/go-ceph/internal/dlsym"
-	"github.com/ceph/go-ceph/rados"
+	"github.com/hasantir/go-ceph/internal/cutil"
+	"github.com/hasantir/go-ceph/internal/dlsym"
+	"github.com/hasantir/go-ceph/rados"
 )
 
 type imgSnapInfoArray [cutil.MaxIdx]C._rbd_group_image_snap_info_t
