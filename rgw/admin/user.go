@@ -35,7 +35,7 @@ type User struct {
 	Stat                UserStat       `json:"stats"`
 	UserCaps            string         `url:"user-caps"`
 	AccountID           string         `json:"account_id" url:"account-id"`
-	AccountRoot         *bool          `url:"account-root"`
+	AccountRoot         *bool          `json:"account_root" url:"account-root"`
 }
 
 // SubuserSpec represents a subusers of a ceph-rgw user
