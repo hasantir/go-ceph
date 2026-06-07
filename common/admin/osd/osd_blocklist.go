@@ -9,7 +9,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/ceph/go-ceph/internal/commands"
+	"github.com/hasantir/go-ceph/internal/commands"
 )
 
 const layout = "2006-01-02T15:04:05.000000-0700"

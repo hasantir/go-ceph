@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ceph/go-ceph/internal/commands"
+	"github.com/hasantir/go-ceph/internal/commands"
 )
 
 func (suite *NFSAdminSuite) TestExportSecType() {

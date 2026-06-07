@@ -8,7 +8,7 @@ import "C"
 import (
 	"errors"
 
-	"github.com/ceph/go-ceph/internal/errutil"
+	"github.com/hasantir/go-ceph/internal/errutil"
 )
 
 func getError(e C.int) error {

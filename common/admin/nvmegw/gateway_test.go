@@ -7,7 +7,7 @@ import (
 
 	tsuite "github.com/stretchr/testify/suite"
 
-	"github.com/ceph/go-ceph/internal/admintest"
+	"github.com/hasantir/go-ceph/internal/admintest"
 )
 
 var (

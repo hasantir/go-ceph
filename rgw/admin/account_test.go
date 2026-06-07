@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/ceph/go-ceph/internal/util"
+	"github.com/hasantir/go-ceph/internal/util"
 	"github.com/stretchr/testify/assert"
 )
 

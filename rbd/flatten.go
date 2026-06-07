@@ -20,7 +20,7 @@ static inline int wrap_rbd_flatten_with_progress(
 import "C"
 
 import (
-	"github.com/ceph/go-ceph/internal/callbacks"
+	"github.com/hasantir/go-ceph/internal/callbacks"
 )
 
 // FlattenCallback defines the function signature needed for the

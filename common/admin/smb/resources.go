@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/ceph/go-ceph/internal/commands"
+	"github.com/hasantir/go-ceph/internal/commands"
 )
 
 // ErrUnknownResourceType indicates that JSON values contained a resource

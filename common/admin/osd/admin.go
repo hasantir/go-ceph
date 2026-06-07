@@ -1,8 +1,8 @@
 package osd
 
 import (
-	ccom "github.com/ceph/go-ceph/common/commands"
-	"github.com/ceph/go-ceph/internal/commands"
+	ccom "github.com/hasantir/go-ceph/common/commands"
+	"github.com/hasantir/go-ceph/internal/commands"
 )
 
 // Commander interface supports sending commands to Ceph.

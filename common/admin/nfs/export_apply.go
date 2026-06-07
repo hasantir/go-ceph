@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ceph/go-ceph/internal/commands"
+	"github.com/hasantir/go-ceph/internal/commands"
 )
 
 var errUnknownApplyState = errors.New("apply returned unknown state")

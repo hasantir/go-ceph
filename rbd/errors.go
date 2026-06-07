@@ -9,7 +9,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ceph/go-ceph/internal/errutil"
+	"github.com/hasantir/go-ceph/internal/errutil"
 )
 
 func getError(err C.int) error {

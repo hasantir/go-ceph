@@ -3,7 +3,7 @@
 package nvmegw
 
 import (
-	ccom "github.com/ceph/go-ceph/common/commands"
+	ccom "github.com/hasantir/go-ceph/common/commands"
 )
 
 // Admin is used to administer ceph nvme gateway features.

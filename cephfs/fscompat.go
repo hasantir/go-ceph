@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ceph/go-ceph/internal/log"
+	"github.com/hasantir/go-ceph/internal/log"
 )
 
 var (

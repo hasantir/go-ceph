@@ -3,7 +3,7 @@
 package smb
 
 import (
-	ccom "github.com/ceph/go-ceph/common/commands"
+	ccom "github.com/hasantir/go-ceph/common/commands"
 )
 
 // Commander interface supports sending commands to Ceph.

@@ -5,7 +5,7 @@ package smb
 import (
 	"encoding/json"
 
-	"github.com/ceph/go-ceph/internal/commands"
+	"github.com/hasantir/go-ceph/internal/commands"
 )
 
 type genericResultCommon struct {

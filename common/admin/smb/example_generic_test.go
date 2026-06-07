@@ -5,8 +5,8 @@ package smb_test
 import (
 	"fmt"
 
-	"github.com/ceph/go-ceph/common/admin/smb"
-	"github.com/ceph/go-ceph/rados"
+	"github.com/hasantir/go-ceph/common/admin/smb"
+	"github.com/hasantir/go-ceph/rados"
 )
 
 func ExampleGenericResource() {

@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ceph/go-ceph/internal/util"
+	"github.com/hasantir/go-ceph/internal/util"
 )
 
 var (

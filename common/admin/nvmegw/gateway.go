@@ -3,7 +3,7 @@
 package nvmegw
 
 import (
-	"github.com/ceph/go-ceph/internal/commands"
+	"github.com/hasantir/go-ceph/internal/commands"
 )
 
 // GatewayList describes the status and details of the gateways for a pool and

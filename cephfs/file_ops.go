@@ -13,8 +13,9 @@ package cephfs
 import "C"
 
 import (
-	ts "github.com/ceph/go-ceph/internal/timespec"
 	"unsafe"
+
+	ts "github.com/hasantir/go-ceph/internal/timespec"
 )
 
 // Mknod creates a regular, block or character special file.

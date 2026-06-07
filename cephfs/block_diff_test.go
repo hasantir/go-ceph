@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	fsadmin "github.com/ceph/go-ceph/cephfs/admin"
-	"github.com/ceph/go-ceph/internal/dlsym"
+	fsadmin "github.com/hasantir/go-ceph/cephfs/admin"
+	"github.com/hasantir/go-ceph/internal/dlsym"
 	"github.com/stretchr/testify/assert"
 )
 

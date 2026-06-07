@@ -21,7 +21,7 @@ implemented using a certain C API function a line with the term `Implements:`
 will be followed by the C function's declaration - matching what can be found
 in the C library's header file. For example, if you knew you wanted to wrap the
 rbd function to get an image's metadata, `rbd_metadata_get`, you could search
-within the source code or https://pkg.go.dev/github.com/ceph/go-ceph/rbd for
+within the source code or https://pkg.go.dev/github.com/hasantir/go-ceph/rbd for
 `rbd_metadata_get` which would lead you to the `GetMetadata` method of the
 `Image` type.
 
@@ -38,7 +38,7 @@ particular `ceph` CLI command will contain a line with the term `Similar To:`
 followed by the `ceph` command it is similar to. For example, if
 you knew you wanted to create a CephFS subvolume group and would normally use
 the command `ceph fs subvolumegroup create` to do so, you could search within
-the source code or https://pkg.go.dev/github.com/ceph/go-ceph/cephfs/admin for
+the source code or https://pkg.go.dev/github.com/hasantir/go-ceph/cephfs/admin for
 `ceph fs subvolumegroup create` which would lead you to the
 `CreateSubVolumeGroup` property of the `FSAdmin` type.
 
@@ -51,15 +51,15 @@ the differences quickly but not always.
 Generally, there is no simple way to access a C based API from Go without
 updates to the code. If there's an API that you need that doesn't appear to be
 wrapped by go-ceph, please [file an
-issue](https://github.com/ceph/go-ceph/issues). If you are comfortable writing
+issue](https://github.com/hasantir/go-ceph/issues). If you are comfortable writing
 Go and would like to try writing a wrapper function we're more than happy to
 [welcome contributions](./development.md#contribution-guidelines) as well.
 
 The command/JSON based APIs can be accessed without directly wrapping them.
 The large majority of these functions are based on either
-[rados.MgrCommand](https://pkg.go.dev/github.com/ceph/go-ceph@v0.21.0/rados#Conn.MgrCommand)
+[rados.MgrCommand](https://pkg.go.dev/github.com/hasantir/go-ceph@v0.21.0/rados#Conn.MgrCommand)
 or
-[rados.MonCommand](https://pkg.go.dev/github.com/ceph/go-ceph@v0.21.0/rados#Conn.MonCommand).
+[rados.MonCommand](https://pkg.go.dev/github.com/hasantir/go-ceph@v0.21.0/rados#Conn.MonCommand).
 Both these functions accept a formatted JSON object that maps to a command line
 constant prefix and the variable argument values. Determining the JSON prefix
 and accepted arguments can be done using a special JSON-command: `{"prefix":

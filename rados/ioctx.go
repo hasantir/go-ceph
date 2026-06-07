@@ -29,7 +29,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ceph/go-ceph/internal/retry"
+	"github.com/hasantir/go-ceph/internal/retry"
 )
 
 // CreateOption is passed to IOContext.Create() and should be one of

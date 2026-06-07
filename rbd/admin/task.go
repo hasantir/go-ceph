@@ -4,8 +4,8 @@
 package admin
 
 import (
-	ccom "github.com/ceph/go-ceph/common/commands"
-	"github.com/ceph/go-ceph/internal/commands"
+	ccom "github.com/hasantir/go-ceph/common/commands"
+	"github.com/hasantir/go-ceph/internal/commands"
 )
 
 // TaskAdmin encapsulates management functions for ceph rbd task operations.

@@ -3,9 +3,9 @@
 package builder
 
 import (
-	ccom "github.com/ceph/go-ceph/common/commands"
+	ccom "github.com/hasantir/go-ceph/common/commands"
 
-	"github.com/ceph/go-ceph/internal/commands"
+	"github.com/hasantir/go-ceph/internal/commands"
 )
 
 var queryCommand = []byte(`{"prefix": "get_command_descriptions"}`)

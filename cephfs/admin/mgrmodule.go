@@ -1,7 +1,7 @@
 package admin
 
 import (
-	"github.com/ceph/go-ceph/common/admin/manager"
+	"github.com/hasantir/go-ceph/common/admin/manager"
 )
 
 const mirroring = "mirroring"

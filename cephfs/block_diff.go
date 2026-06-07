@@ -98,7 +98,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/ceph/go-ceph/internal/dlsym"
+	"github.com/hasantir/go-ceph/internal/dlsym"
 )
 
 var (

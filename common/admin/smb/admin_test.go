@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/require"
 	tsuite "github.com/stretchr/testify/suite"
 
-	fsadmin "github.com/ceph/go-ceph/cephfs/admin"
-	"github.com/ceph/go-ceph/common/admin/manager"
-	"github.com/ceph/go-ceph/internal/admintest"
-	"github.com/ceph/go-ceph/internal/commands"
+	fsadmin "github.com/hasantir/go-ceph/cephfs/admin"
+	"github.com/hasantir/go-ceph/common/admin/manager"
+	"github.com/hasantir/go-ceph/internal/admintest"
+	"github.com/hasantir/go-ceph/internal/commands"
 )
 
 const modName = "smb"

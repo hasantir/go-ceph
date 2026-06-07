@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/require"
 	tsuite "github.com/stretchr/testify/suite"
 
-	_ "github.com/ceph/go-ceph/common/admin/manager"
-	"github.com/ceph/go-ceph/internal/admintest"
-	_ "github.com/ceph/go-ceph/internal/commands"
+	_ "github.com/hasantir/go-ceph/common/admin/manager"
+	"github.com/hasantir/go-ceph/internal/admintest"
+	_ "github.com/hasantir/go-ceph/internal/commands"
 )
 
 func TestBuilder(t *testing.T) {

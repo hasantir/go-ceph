@@ -24,7 +24,7 @@ static inline int wrap_rbd_resize2(
 import "C"
 
 import (
-	"github.com/ceph/go-ceph/internal/callbacks"
+	"github.com/hasantir/go-ceph/internal/callbacks"
 )
 
 // Resize2ProgressCallback is the callback function type for Image.Resize2.

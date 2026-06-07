@@ -13,8 +13,8 @@ import "C"
 import (
 	"unsafe"
 
-	ts "github.com/ceph/go-ceph/internal/timespec"
-	"github.com/ceph/go-ceph/rados"
+	ts "github.com/hasantir/go-ceph/internal/timespec"
+	"github.com/hasantir/go-ceph/rados"
 )
 
 // GetImageNames returns the list of current RBD images.
